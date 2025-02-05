@@ -2,8 +2,6 @@
 
 * {
   font-family: 'space-grotesk';
-  margin: 0;
-  padding: 0;
 }
 
 .overlay::before{
@@ -15,7 +13,6 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  margin: 0;
   background-repeat: no-repeat;
   mix-blend-mode: luminosity;
   opacity: 20%;
