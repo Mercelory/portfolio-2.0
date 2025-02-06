@@ -22,3 +22,7 @@
 h1 {
   font-family: "Sora", sans-serif;
 }
+
+@theme {
+  --breakpoint-xs: 15rem;
+}
