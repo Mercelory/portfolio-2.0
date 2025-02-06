@@ -2,8 +2,8 @@ import { TbBrandTelegram, TbBrandGithub, TbBrandLinkedin, TbMail } from "react-i
 
 const Main = () => {
   return (
-    <section class = ''>
-    <div className="flex-col justify-between items-center top-50 left-0 relative md:top-70 lg:top-100">
+    <section id = "Home" class = 'w-full h-screen'>
+    <div className="flex-col justify-between items-center bottom-40 left-0 absolute   ">
     <ul class = 'flex justify-between items-center w-40 ml-5 mb-2 md:w-60 lg:ml-10'>
       <li className="hover:text-zinc-300 hover:transition-transform duration-500 text-3xl md:text-5xl"><a href = '#'><TbBrandTelegram /></a></li>
       <li className="hover:text-zinc-300 hover:transition-transform duration-500 text-3xl md:text-5xl"><a href = '#'> <TbBrandGithub /></a> </li>

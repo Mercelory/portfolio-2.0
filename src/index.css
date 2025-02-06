@@ -2,6 +2,7 @@
 
 * {
   font-family: "Space Grotesk", serif;
+  scroll-behavior: smooth;
 }
 
 .overlay::before{

@@ -1,6 +1,10 @@
 const Projects = () => {
   return (
-    <div>In college I used mostly C++ to write coursework, one of which used C++ and Assembler. But all of this was far from appealing to me. But in one of the courses we started to go through web development, which interested me a lot and I started to get into it on my own</div>
+    <section id = 'Education' className="inset-0 -z-10 h-screen w-full bg-[#F9F9F9] bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
+    <div class="flex justify-center items-center relative top-60">
+    <h1 className="text-4xl">Soon</h1>
+   </div>
+ </section>
   )
 }
 

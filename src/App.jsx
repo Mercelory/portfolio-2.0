@@ -11,6 +11,10 @@ function App() {
         <main className="overlay">
           <Navbar />
           <Main />
+          <Work />
+          <Education />
+          <Skills />
+          <Projects />
         </main>
     </>;
 }
