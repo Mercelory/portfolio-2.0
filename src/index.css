@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 * {
-  font-family: 'space-grotesk';
+  font-family: "Space Grotesk", serif;
 }
 
 .overlay::before{
@@ -16,4 +16,9 @@
   background-repeat: no-repeat;
   mix-blend-mode: luminosity;
   opacity: 20%;
+}
+
+
+h1 {
+  font-family: "Sora", sans-serif;
 }

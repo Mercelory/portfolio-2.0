@@ -1,24 +1,24 @@
 function Navbar() {
   return (
-    <nav className="fixed bottom-0 left-0 text-black w-full">
-      <div className="w-full mx-auto px-15 flex justify-center items-center h-16">
-        <a className="border-2 p-1 m-3">
-            Home
-        </a>
-        <a className="border-2 p-1 m-3">
-            Work
-        </a>
-        <a className="border-2 p-1 m-3">
-            Education
-        </a>
-        <a className="border-2 p-1 m-3">
-            Skills
-        </a>
-        <a className="border-2 p-1 m-3">
-            Projects
-        </a>
-        </div>
-    </nav>
+<nav class = "fixed left-0 bottom-0 w-full h-10">
+    <ul class = 'flex justify-center items-center mx-auto '>
+      <a class = 'relative group mx-1 px-2 border '>
+        <span class = 'z-10 relative group-hover:text-white transition-transform duration-500'>Home</span>
+        <span class = 'z-9 absolute inset-0 bg-black scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-bottom'></span></a>
+        <a class = 'relative group mx-1 px-2 border '>
+        <span class = 'z-10 relative group-hover:text-white transition-transform duration-500'>Work</span>
+        <span class = 'z-9 absolute inset-0 bg-black scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-bottom'></span></a>
+        <a class = 'relative group mx-1 px-2 border '>
+        <span class = 'z-10 relative group-hover:text-white transition-transform duration-500'>Education</span>
+        <span class = 'z-9 absolute inset-0 bg-black scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-bottom'></span></a>
+        <a class = 'relative group mx-1 px-2 border '>
+        <span class = 'z-10 relative group-hover:text-white transition-transform duration-500'>Skills</span>
+        <span class = 'z-9 absolute inset-0 bg-black scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-bottom'></span></a>
+        <a class = 'relative group mx-1 px-2 border '>
+        <span class = 'z-10 relative group-hover:text-white transition-transform duration-500'>Projects</span>
+        <span class = 'z-9 absolute inset-0 bg-black scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-bottom'></span></a>
+    </ul>
+</nav>
   )
 }
 
