@@ -1,9 +1,9 @@
 {
-  "name": "my-portfolio",
+  "name": "portfolio-2.0",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mercelory.github.io/portfolio-2.0/",
+  "homepage": "https://mercelory.github.io/portfolio-2.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
