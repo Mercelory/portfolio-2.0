@@ -9,7 +9,8 @@ import About from "./components/About"
 
 function App() {
   return <>
-          <div className="grid grid-cols-[600px_1fr] h-screen overlay overflow-hidden">
+  <div class="h-full">
+          <div className="grid grid-cols-[600px_1fr] absolute h-screen overflow-hidden w-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
       <aside className="sticky top-0 h-screen">
       <Main />
       <Navbar />
@@ -32,6 +33,7 @@ function App() {
         </section>
       </main>
     </div>
+    </div>  
     </>;
 }
 
