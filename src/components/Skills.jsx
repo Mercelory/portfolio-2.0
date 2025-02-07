@@ -2,8 +2,8 @@ import { TbBrandHtml5, TbBrandCss3, TbBrandTailwind,TbBrandJavascript,TbBrandRea
 
 const Skills = () => {
       return (
-        <section id = 'Skills' className="inset-0 -z-10 h-screen w-full bg-[#F9F9F9] bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
-           <div class="relative top-60 xs:w-60 flex-col justify-center items-center mx-auto">
+        <section id = 'Skills' className="">
+           <div class="relative flex-col justify-center items-center h-[600px] flex">
               <ul className="text-4xl flex flex-wrap items-center justify-center gap-8 ">
                 <li className=""> <TbBrandHtml5/> </li>
                 <li className=""> <TbBrandCss3/> </li>

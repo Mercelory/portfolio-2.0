@@ -1,7 +1,7 @@
 const Work = () => {
   return (
-    <section id = 'Work' className="inset-0 -z-10 h-screen w-full bg-[#F9F9F9] bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
-      <div class="lg:flex justify-center items-center relative top-60 xs:w-sm mx-auto md:w-3xl xs:w-xs">
+    <section id = 'Work' className=" relative h-[600px] flex justify-center items-center">
+      <div class="lg:flex justify-center items-center xs:w-sm mx-auto md:w-3xl ">
         <div className="m-2 xs:w-xs">
         <div class="relative flex items-center mb-2 xs:w-xs xs:justify-center">
         <span class="text-gray-700 text-xs mr-2">2025</span>
