@@ -3,30 +3,32 @@ const Work = () => {
   return (
     <section 
     id = 'Work' 
-    className="">
-      <div class="flex justify-center items-center relative h-screen max-w-150 mx-auto">
+    className="p-5 max-w-150 h-screen">
+      <div class="flex items-center h-screen">
         <motion.div
         initial = {{x: -50, x:50, opacity: 0}}
                 whileInView = {{x: 0, x:0, opacity: 1}}
                 transition={{duration: 1, delay:0.2}}
-         className="ml-5">
-      <span className="text-zinc-300 text-lg text-nowrap">now</span>
-      <div className="relative w-0.5 bg-black h-40 flex justify-center ml-5">
+         className="">
+    </motion.div>
+    <div>
+    <span className="text-zinc-300 text-lg -ml-5">now</span>
+      <div className="relative w-0.5 bg-black h-40 flex justify-center">
         <div className="absolute bottom-0 w-5 h-5 bg-white border-2 border-black rounded-full"></div>
       </div>
-      <span className="text-zinc-300 text-lg ">2025</span>
-    </motion.div>
-    <div className="w-150 ml-15">
+      <span className="text-zinc-300 text-lg -ml-5">2025</span>
+      </div>
+    <div className="ml-5">
             <motion.h1 
                 initial = {{x: -50, x:50, opacity: 0}}
                 whileInView = {{x: 0, x:0, opacity: 1}}
                 transition={{duration: 1, delay:0.2}}
-            className="font-semibold text-3xl xs:text-3xl">Technical Support Engineer</motion.h1>
+            className="font-semibold  text-3xl">Technical Support Engineer</motion.h1>
             <motion.h2 
             initial = {{x: -50, x:50, opacity: 0}}
             whileInView = {{x: 0, x:0, opacity: 1}}
             transition={{duration: 1, delay:0.3}}
-            className="font-light text-zinc-400 xs:text-lg">UniversalBank | 2025 - current time</motion.h2>
+            className="font-light text-zinc-400 text-lg">UniversalBank</motion.h2>
             <motion.p 
             initial = {{x: -50, x:50, opacity: 0}}
             whileInView = {{x: 0, x:0, opacity: 1}}

@@ -2,9 +2,9 @@ import { TbBrandHtml5, TbBrandCss3, TbBrandTailwind,TbBrandJavascript,TbBrandRea
 import {motion} from "framer-motion"
 const Skills = () => {
       return (
-        <section id = 'Skills' className="">
-           <div class="relative flex-col justify-center items-center h-[600px] flex max-w-150 text-center mx-auto">
-              <ul className="text-4xl flex flex-wrap items-center justify-center gap-8 w-60">
+        <section id = 'Skills' className="p-5">
+           <div class="flex-col justify-center items-center h-screen flex text-center mx-auto">
+              <ul className="text-4xl flex flex-wrap items-center justify-center gap-10 w-80">
                 <motion.li 
                  initial = {{x: -50, opacity: 0}}
                  whileInView = {{x: 0, opacity: 1}}
