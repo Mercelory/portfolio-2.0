@@ -10,13 +10,13 @@ import About from "./components/About"
 function App() {
   return <>
   <div class="h-full">
-          <div className="grid grid-cols-[600px_1fr] absolute h-screen overflow-hidden w-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
-      <aside className="sticky top-0 h-screen">
+          <div className=" grid gap-20 wrap overflow-y-auto bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] md:grid-cols-[300px_1fr] xs:grid-cols-[350px]">
+      <aside className="md:sticky md:top-0 h-screen overflow-y-auto md:block xs:flex xs:justify-center xs:items-center">
       <Main />
       <Navbar />
       </aside>
-      <main className="overflow-y-auto h-screen relative">
-      <section className="mx-auto max-w-[800px]">
+      <main className="md:overflow-y-auto h-screen w-full">
+      <section className="mx-auto max-w-[600px]">
           <h1 className=""> <About /></h1>
         </section>
         <section className="mt-30">

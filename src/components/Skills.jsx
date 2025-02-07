@@ -3,7 +3,7 @@ import { TbBrandHtml5, TbBrandCss3, TbBrandTailwind,TbBrandJavascript,TbBrandRea
 const Skills = () => {
       return (
         <section id = 'Skills' className="">
-           <div class="relative flex-col justify-center items-center h-[600px] flex ">
+           <div class="relative flex-col justify-center items-center h-[600px] flex max-w-150 text-center mx-auto">
               <ul className="text-4xl flex flex-wrap items-center justify-center gap-8 w-60">
                 <li className=""> <TbBrandHtml5/> </li>
                 <li className=""> <TbBrandCss3/> </li>
