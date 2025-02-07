@@ -13,7 +13,9 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@stichiboi/react-elegant-mouse-trail": "^1.0.1",
     "@tailwindcss/vite": "^4.0.3",
+    "aos": "^2.3.4",
     "framer-motion": "^12.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
