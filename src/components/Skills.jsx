@@ -2,8 +2,8 @@ import { TbBrandHtml5, TbBrandCss3, TbBrandTailwind,TbBrandJavascript,TbBrandRea
 import {motion} from "framer-motion"
 const Skills = () => {
       return (
-        <section id = 'Skills' className="p-5">
-           <div class="flex-col justify-center items-center h-screen flex text-center mx-auto">
+        <section id = 'Skills' className="mb-65">
+           <div class="flex-col justify-center items-center h-screen flex text-center mx-auto dark:text-neutral-200">
               <ul className="text-4xl flex flex-wrap items-center justify-center gap-10 w-80">
                 <motion.li 
                  initial = {{x: -50, opacity: 0}}
@@ -51,7 +51,7 @@ const Skills = () => {
               initial = {{opacity: 0}}
               whileInView = {{opacity: 1}}
               transition={{duration: 0.8, delay:0.5}}
-              className="font-light text-zinc-300 text-center m-2">*but it's not the entire list</motion.p>
+              className="font-light text-zinc-300 text-center m-2 dark:text-neutral-500">*but it's not the entire list</motion.p>
           </div>
         </section>
   )

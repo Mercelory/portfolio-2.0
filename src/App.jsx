@@ -4,18 +4,17 @@ import Work from "./components/Work";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import About from "./components/About"
-
+import About from "./components/About";
 
 function App() {
-  return <>
-  <div class="" >
-          <div className="flex md:flex-row xs:flex-col bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
-      <aside className="h-screen md:overflow-y-auto mr-25 p-5">
+  return (
+  <div className="min-h-screen bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] dark:bg-neutral-800 dark:bg-[radial-gradient(#4e4e4e33_1px,#212121_1px)] dark:bg-[size:16px_16px]">
+          <div className="flex md:flex-row xs:flex-col justify-center">        
+      <aside className="xs:min-h-screen md:h-screen md:overflow-y-auto p-10">
       <Main />
       <Navbar />
       </aside>
-      <main className="p-5 h-screen md:overflow-y-auto md:overflow-x-hidden">
+      <main className="p-10 xs:min-h-screen md:h-screen md:overflow-y-auto md:overflow-x-hidden dark:bg-neutral-800 dark:bg-[radial-gradient(#4e4e4e33_1px,#212121_1px)] dark:bg-[size:16px_16px]">
       <section className="">
       <div>
           <h1 className=""><About /></h1>
@@ -35,10 +34,8 @@ function App() {
         </section>      
       </main>
     </div>
-    
     </div>  
-
-    </>;
+  )
 }
 
 export default App;
