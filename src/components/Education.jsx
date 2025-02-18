@@ -11,9 +11,9 @@ const Education = () => {
                 transition={{duration: 1, delay:0.2}}
          className="">
       <span className="text-zinc-300 text-lg -ml-5 dark:text-neutral-500">2023</span>
-      <div className="relative w-0.5 bg-black h-40 flex justify-center dark:bg-neutral-300">
-        <div className="absolute bottom-0 w-5 h-5 bg-white rounded-full dark:bg-neutral-300"></div>
-        <div className="absolute top-0 w-5 h-5 bg-white rounded-full dark:bg-neutral-300"></div>
+      <div className="relative w-0.5 bg-neutral-600 h-40 flex justify-center dark:bg-neutral-300">
+        <div className="absolute bottom-0 w-5 h-5 bg-neutral-600 rounded-full dark:bg-neutral-300"></div>
+        <div className="absolute top-0 w-5 h-5 bg-neutral-600 rounded-full dark:bg-neutral-300"></div>
       </div>
       <span className="text-zinc-300 text-lg -ml-5 dark:text-neutral-500">2017</span>
     </motion.div>

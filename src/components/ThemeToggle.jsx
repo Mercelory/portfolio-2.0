@@ -32,9 +32,6 @@ const ThemeToggle = () => {
   return (
     <div>
       <motion.button
-        initial={{ y: 50, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.8 }}
         onClick={toggleTheme}
         className="text-lg dark:text-neutral-200 cursor-pointer"
       >

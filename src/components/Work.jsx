@@ -13,8 +13,8 @@ const Work = () => {
     </motion.div>
     <div>
     <span className="text-zinc-300 text-lg -ml-5 dark:text-neutral-500">now</span>
-      <div className="relative w-0.5 bg-black h-40 flex justify-center dark:bg-neutral-300">
-        <div className="absolute bottom-0 w-5 h-5 bg-white border-black rounded-full dark:bg-neutral-300"></div>
+      <div className="relative w-0.5 bg-neutral-600 h-40 flex justify-center dark:bg-neutral-300">
+        <div className="absolute bottom-0 w-5 h-5 bg-neutral-600 border-black rounded-full dark:bg-neutral-300"></div>
       </div>
       <span className="text-zinc-300 text-lg -ml-5 dark:text-neutral-500">2025</span>
       </div>

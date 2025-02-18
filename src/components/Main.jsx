@@ -11,10 +11,10 @@ const Main = () => {
     whileInView = {{y: 0, opacity: 1}}
     transition={{duration: 0.8, delay:0.1}}
     class = 'flex justify-between w-50 dark:text-neutral-200'>
-      <li className="hover:text-zinc-300 hover:transition-transform duration-500 text-3xl dark:hover:text-neutral-500"><a href = '#'><TbBrandTelegram /></a></li>
+      <li className="hover:text-zinc-300 hover:transition-transform duration-500 text-3xl dark:hover:text-neutral-500"><a href = 'https://t.me/tisdm'><TbBrandTelegram /></a></li>
       <li className="hover:text-zinc-300 hover:transition-transform duration-500 text-3xl dark:hover:text-neutral-500"><a href = 'https://github.com/Mercelory'> <TbBrandGithub /></a> </li>
-      <li className="hover:text-zinc-300 hover:transition-transform duration-500 text-3xl dark:hover:text-neutral-500"><a href = '#'> <TbBrandLinkedin /></a> </li>
-      <li className="hover:text-zinc-300 hover:transition-transform duration-500 text-3xl dark:hover:text-neutral-500"><a href = '#'><TbMail /></a> </li>
+      <li className="hover:text-zinc-300 hover:transition-transform duration-500 text-3xl dark:hover:text-neutral-500"><a href = 'https://www.linkedin.com/in/tischenko-dmitriy-068640267/'> <TbBrandLinkedin /></a> </li>
+      <li className="hover:text-zinc-300 hover:transition-transform duration-500 text-3xl dark:hover:text-neutral-500"><a href = 'mailto:tischenkodmitry01@gmail.com'><TbMail /></a> </li>
       <li className="hover:text-zinc-300 hover:transition-transform duration-500 text-3xl dark:hover:text-neutral-500"><a href = '#'><TbFileCv /></a> </li>
       <li className="hover:text-zinc-300 hover:transition-transform duration-500 text-3xl dark:hover:text-neutral-500"><ThemeToggle/></li>
     </motion.ul>
